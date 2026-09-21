@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #202033;
+    background-color: white;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: calc(100% - 330px);
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
